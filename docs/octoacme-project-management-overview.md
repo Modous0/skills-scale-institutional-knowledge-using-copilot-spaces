@@ -14,11 +14,16 @@ Applies to all cross-functional projects that deliver product features, services
 - Psychological safety: encourage feedback and learning.
 
 ## Core Roles
-- Project Manager (PM): coordinates delivery, schedules, risk, communications.
+- Project Manager (PM): coordinates delivery, schedules, risk, communications, and handoffs.
 - Product Manager (PdM): defines outcomes, prioritizes backlog, and measures success.
 - Developers: implement features, collaborate on design and testability.
-- QA/Testing: validate quality and acceptance criteria.
-- Stakeholders: provide inputs and approvals.
+- QA/Testing: validate quality, acceptance criteria, and release readiness.
+- Engineering Manager: confirms staffing, sustainable capacity, and execution risk.
+- UX/UI Designer: shapes user flows, usability, and accessibility expectations.
+- DevOps / Platform Engineer: prepares deployment safety, environments, and observability.
+- Security Engineer: advises on threat review, controls, and security-sensitive releases.
+- Customer Support / Success: prepares customer-facing guidance and post-release feedback loops.
+- Stakeholders / Sponsors: provide business inputs, approvals, and escalation support.
 
 ## Key Artifacts
 - Project Charter / One-pager
@@ -43,4 +48,7 @@ Applies to all cross-functional projects that deliver product features, services
 
 ## How to use these docs
 - Keep the Project Charter updated in the project repo.
+- Use [Roles and Personas](octoacme-roles-and-personas.md) to assign named collaborators and clarify interaction points.
+- Use the [RACI Matrix](octoacme-raci-matrix.md) during kickoff, planning, and release readiness reviews.
+- Use the [Handoff Checklist](octoacme-handoff-checklist.md) before moving work between planning, execution, release, and support.
 - Add process-specific docs into `.copilot/` if you want Copilot Spaces to use them as context.
